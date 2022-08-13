@@ -8,21 +8,20 @@
 		<script src="./js/getUrl.js" type="text/javascript"></script>
 	</head>
 	<script>
-		var name = $.getUrlParam('name');
-		var id = $.getUrlParam('id');
+		var apiValue = $.getUrlParam('api');
  
 		window.onload = function(){
-			$("#addname").val(name);
-			$("#addid").val(id);
+			$("#api").val(apiValue);
 		}
 	</script>
  
 	<body>
-		<label>测试URL中的name是：</label>
-		<input type="text" id="addname" />
-		<label>测试URL中的id是：</label>
-		<input type="text" id="addid" />
- 
+		<div>
+			{if condition="$api.status == "QQ"/}
+			<p>IsQQ</p>
+			{else/}
+			<p>Hello</p>
+		</div>
 	</body>
  
 </html>
