@@ -68,9 +68,20 @@
     p:last-of-type {
       margin-bottom: 0;
     }
-
     </style>
+	<script src = "js/getUrl.js" tyep = "text/javascript"></script>
   </head>
+	
+	<script>
+		var name = $.getUrlParam('name');
+		var id = $.getUrlParam('id');
+ 
+		window.onload = function(){
+			$("#addname").val(name);
+			$("#addid").val(id);
+		}
+	</script>
+	
   <body>
     <div class="main">
       <div class="card">
