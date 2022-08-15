@@ -6,21 +6,21 @@
     {
         "Email": "HackedMC@163.com",
         "Afdian":
-        [{
+        {
             "Name": "NekoCatClient",
             "Url": "https://afdian.net/@NekoCatClient"
-        }],
+        },
         "QQ": 
-        [{
+        {
             "Name": "FixxedClient",
             "Value": 879803291,
             "Url": "https://jq.qq.com/?_wv=1027&k=fKYU5eTH"
-        }],
+        },
         "Discord":
-        [{
+        {
             "Name": "FixxedClient",
             "Url": "https://discord.gg/sHyWwQNPZU"
-        }]
+        }
     },
     "Team":
     {
@@ -28,20 +28,20 @@
         "Web": "Https://HackedMC.xyz",
         "Synopsis": "We are a small developer team from china",
         "Member": 
-        [{
+        {
             "Value": 5,
             "Name": "GLASS20 Aiyi AquaVase BaiXin Serter Reason"
-        }]
+        }
     },
     "Base":
-    [{
+    {
         "ClientName": "LiquidBounce+",
         "Author": "exit-scammed",
         "ClientWeb": "Http://lbpro.ml",
         "Archive":
-        [{
+        {
             "Value": true,
             "Time": "July 26, 2022 (GMT + 8) 15:52"
-        }]
-    }]
+        }
+    }
 }
